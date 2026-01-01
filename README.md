@@ -1,6 +1,7 @@
 # Swan-Browser 
-A simple web browser for Android coded from scratch (non Chromium based) with tab support.
-A simple web browser for Windows 10/11 made on .NET 10 & WebView2 with tab support _better than the Android version_.
+A simple web browser for Android & Windows 10/11.
+The Android version is coded from scratch (non Chromium based) with _something like_ tab support.
+The Windows version is made on .NET 10 & WebView2 with tab support _better than the Android version_.
       The WedView may create some temporary files, you can just delete them.
 
 ![Screenshot_2025-12-27-14-50-48-742_com panagiotis swanbrowser](https://github.com/user-attachments/assets/bb6941bd-d1ff-4a15-b905-8a613682e27e)
