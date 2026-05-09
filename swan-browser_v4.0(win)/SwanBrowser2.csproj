@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows10.0.17763.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AssemblyName>SwanBrowser</AssemblyName>
+    <RootNamespace>SwanBrowser</RootNamespace>
+    <StartupObject>SwanBrowser2.Program</StartupObject>
+    <ApplicationIcon>appimage.ico</ApplicationIcon>
+    <Authors>Panagiotis Katziotis</Authors>
+    <Company>Swan Project</Company>
+    <PackageIcon>image (10).png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <None Remove="appimage.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\image (10).png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.2849.39" />
+  </ItemGroup>
+
+</Project>
