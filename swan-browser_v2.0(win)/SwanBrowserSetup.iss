@@ -36,9 +36,9 @@ ChangesAssociations=yes
 DisableProgramGroupPage=yes
 ; Remove the following line to run in administrative install mode (install for all users).
 PrivilegesRequired=lowest
-OutputDir=C:\Users\imagestudio\Desktop\New folder (3)
+OutputDir=C:\Users\###\Desktop\New folder (3)
 OutputBaseFilename=Swan Browser Setup
-SetupIconFile=C:\Users\imagestudio\Downloads\swan_icon-removebg-preview.ico
+SetupIconFile=C:\Users\###\Downloads\swan_icon-removebg-preview.ico
 SolidCompression=yes
 WizardStyle=modern dynamic
 
@@ -49,10 +49,10 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\imagestudio\source\repos\SwanBrowser2\SwanBrowser2\bin\Debug\net10.0-windows\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\imagestudio\source\repos\SwanBrowser2\SwanBrowser2\bin\Debug\net10.0-windows\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Users\imagestudio\Downloads\dotnet-sdk-10.0.201-win-x64.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\imagestudio\Downloads\MicrosoftEdgeWebView2RuntimeInstallerX64.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\###\source\repos\SwanBrowser2\SwanBrowser2\bin\Debug\net10.0-windows\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\###\source\repos\SwanBrowser2\SwanBrowser2\bin\Debug\net10.0-windows\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\###\Downloads\dotnet-sdk-10.0.201-win-x64.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\###\Downloads\MicrosoftEdgeWebView2RuntimeInstallerX64.exe"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Registry]
