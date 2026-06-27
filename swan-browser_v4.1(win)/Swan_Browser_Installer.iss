@@ -28,9 +28,9 @@ ChangesAssociations=yes
 DisableProgramGroupPage=yes
 ; Remove the following line to run in administrative install mode (install for all users).
 PrivilegesRequired=lowest
-OutputDir=C:\Users\imagestudio\Desktop
+OutputDir=C:\Users\###\Desktop
 OutputBaseFilename=Swan_Browser_Installer
-SetupIconFile=C:\Users\imagestudio\Downloads\image (16).ico
+SetupIconFile=C:\Users\###\Downloads\image (16).ico
 SolidCompression=yes
 WizardStyle=modern
 
@@ -41,10 +41,10 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\imagestudio\Desktop\net8.0-windows10.0.17763.0\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\imagestudio\Downloads\New folder (3)\MicrosoftEdgeWebView2RuntimeInstallerX64.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\imagestudio\Downloads\New folder (3)\windowsdesktop-runtime-8.0.28-win-x64.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\imagestudio\Desktop\net8.0-windows10.0.17763.0\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\###\Desktop\net8.0-windows10.0.17763.0\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\###\Downloads\New folder (3)\MicrosoftEdgeWebView2RuntimeInstallerX64.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\###\Downloads\New folder (3)\windowsdesktop-runtime-8.0.28-win-x64.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\###\Desktop\net8.0-windows10.0.17763.0\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Registry]
