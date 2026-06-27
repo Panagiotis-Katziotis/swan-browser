@@ -43,9 +43,9 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\imagestudio\Downloads\SwanBrowser25\SwanBrowser2\SwanBrowser2\bin\Debug\net8.0-windows10.0.17763.0\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\imagestudio\Downloads\SwanBrowser25\SwanBrowser2\SwanBrowser2\bin\Debug\net8.0-windows10.0.17763.0\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Users\imagestudio\Downloads\dotnet-sdk-8.0.420-win-x64.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\###\Downloads\SwanBrowser25\SwanBrowser2\SwanBrowser2\bin\Debug\net8.0-windows10.0.17763.0\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\###\Downloads\SwanBrowser25\SwanBrowser2\SwanBrowser2\bin\Debug\net8.0-windows10.0.17763.0\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\###\Downloads\dotnet-sdk-8.0.420-win-x64.exe"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Registry]
